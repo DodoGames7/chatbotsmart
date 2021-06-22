@@ -40,4 +40,4 @@ client.on("message", async message => {
   });
   message.channel.stopTyping();
 });
-client.login('Nzk1MTE4NTQ2ODQ1ODI3MDgz.X_Et2g.qKmuVp2K-X5phggmScBWEfgWkeY'); //login using the token
+client.login('put'); //login using the token
