@@ -13,7 +13,7 @@ client.on("message", async message => {
     .replace(/@(here)/gi, "here");
   if (message.content.includes(`@`)) {
     return message.reply(
-      `**:x: imagine pinging me -_-**`
+      `**:x: imagine mentioning -_-**`
     );
   }
   message.channel.startTyping();
