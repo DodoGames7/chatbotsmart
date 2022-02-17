@@ -12,7 +12,7 @@ client.on("message", async message => {
     .replace(/@(everyone)/gi, "everyone")
     .replace(/@(here)/gi, "here");
   if (message.content.includes(`@`)) {
-    return message.reply(
+    return message.reply(  // if the user mentioned everyone/here or any other mentions, then will return the error of "return message.reply" content
       `**:x: imagine mentioning -_-**`
     );
   }
